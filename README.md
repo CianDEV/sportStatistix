@@ -1,6 +1,8 @@
 # sportStatistix
 
-- Website
-- Desktop App
-- IOS App
-- Android App
+- Website (ReactJS)
+- Desktop App (Rust)
+- IOS App (Swift)
+- Android App (Java)
+
+**SQL Databse
