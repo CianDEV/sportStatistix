@@ -1,0 +1,129 @@
+**Basic Questions**
+
+What is the underlying goal of the app?
+
+    ~ To allow users to track progress in their respective sports 
+    Initially supports:
+        - Swimming
+        - Running
+        - Weight Lifting
+
+How will you make your app appeal to users?
+
+    ~ Simplicity of use
+    ~ Customizable Experience
+
+What are you setting out to do? What problem do you want to solve?
+
+    ~ Allow users to set goals
+    ~ Allow users to track progress via graphs
+    ~ Aim to solve the issue of people not noticing improvement
+    ~ Aim to show users what they need to do in order to improve
+
+Why would people want to use your app instead of a competitor?
+
+    ~ Support for extra sports
+    ~ Flexible
+    ~ Having many different functionalities in the same app that are
+      normally separated into separate apps.
+
+      - Progress tracker
+      - Progress tips/coaching
+      - Multiple sport 
+      - Ability to have goals for different sports if you have multiple disciplines
+    
+**Website**
+
+What cloud service will be used for hosting?
+
+AWS Amplify
+
+    Pros:
+
+        ~ Supports the creation of scalable applications
+        ~ Works seamlessly with ReactJS
+        ~ Backend supports
+        ~ Free Tier for starting out
+        ~ Web based analytics
+    
+    Cons:
+
+        ~ High learning curve
+        ~ Traffic Distribution
+        ~ Changes consistently
+
+What Language and Framework will be used?
+
+ReactJS Framework:
+
+    ~ Scalable
+    ~ Reliable
+    ~ Built in testing features
+
+Javascript:
+
+    ~ Easy to write
+    ~ Plenty of support online
+    ~ Most used language for websites
+    ~ Flexible
+
+**App**
+
+What Database will be used?
+
+    MySQL:
+
+        ~ Built in support for chosen language
+        ~ Readable
+        ~ 24/7 Uptime
+        ~ Has a free option
+        ~ Huge user community
+
+What languages will be used?
+
+    Rust:
+
+        Pros: 
+
+            ~ Memory safe
+            ~ Built in support for SQL
+            ~ Very Flexible
+            ~ Long term reliability
+
+        Cons:
+
+            ~ Hard tp write
+            ~ Many crates still under development
+            ~ Many features must be written from scratch
+    
+    R:
+
+        Pros:
+
+            ~ Rust crates support R
+            ~ Easy to draw graphs
+            ~ Supports SQL querying
+
+        Cons:
+
+            ~ Not secure
+            ~ Can be slow
+            ~ Takes up a lot of momemory 
+            ~ Not consistent
+
+**Useful guides online**
+
+Using R in rust code:
+    https://www.ericburden.work/blog/2021/04/07/implementing-r-functions-in-rust-with-extendr/
+
+Create R packages with rust: 
+    https://cran.r-project.org/web/packages/rextendr/vignettes/package.html#:~:text=The%20rextendr%20package%20provides%20two,to%20usethis%3A%3Ause_cpp11()%20.
+
+Connect SQL with R:
+    https://www.r-bloggers.com/2020/09/how-to-connect-r-with-sql/
+
+Using SQL in rust:
+    https://blog.logrocket.com/interacting-databases-rust-diesel-vs-sqlx/
+    https://docs.rs/gluesql/latest/gluesql/
+    https://users.rust-lang.org/t/sql-implementations-in-rust/47502
+    
